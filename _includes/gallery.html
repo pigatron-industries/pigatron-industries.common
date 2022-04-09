@@ -6,7 +6,7 @@
                 {% assign filename = filenameparts | last | replace: file.extname,"" %}
                 <li>
                     <a href="{{ file.path | relative_url }}" title="{{ filename }}">
-                        <img src="{{ file.path }}" alt="{{ filename }}" title="{{ filename }}" height="{{ include.imgheight }}"/>
+                        <img src="{{ file.path }}" alt="{{ filename }}" title="{{ filename }}"/>
                         <!-- <span>{{ filename }}</span> -->
                     </a>
                 </li>
